@@ -1,0 +1,118 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    overflow-x: hidden;
+    color: white;
+    letter-spacing: 3px;
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+*:focus {
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+
+}
+
+
+.main {
+    background-color: black;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+}
+
+input {
+    padding: 8px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.save_btn {
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.save_btn:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.span {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.li {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    margin-bottom: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    overflow: auto;
+}
+
+.icons_setting {
+    margin-top: -12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+i {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.fas,
+.delete-icon {
+    margin-left: 10px;
+}
+
+
+i:hover {
+    color: rgb(228, 228, 228);
+}
+
+.clar_all_btn {
+    margin-left: calc(92% - 50px);
+}
+
